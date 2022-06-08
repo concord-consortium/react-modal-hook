@@ -1,10 +1,10 @@
 {
-  "name": "react-modal-hook",
-  "version": "3.0.0",
+  "name": "@concord-consortium/react-modal-hook",
+  "version": "3.0.0-cc.1",
   "description": "React hook for showing modal windows",
   "author": "mpontus",
   "license": "MIT",
-  "repository": "mpontus/react-modal-hook",
+  "repository": "concord-consortium/react-modal-hook",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",

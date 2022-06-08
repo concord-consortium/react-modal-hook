@@ -148,6 +148,16 @@ const App = () => {
 };
 ```
 
+## Publishing
+```
+> yarn run build
+> node_modules/.bin/tsc --emitDeclarationOnly
+> cp build/*.d.ts dist/
+> yarn publish --access public
+```
+
+With the right config of the typescript plugin in rollup.config.js, rollup will build the types. However I was trying to keep the code changes to a minimum compared to the branch this is based off of.
+
 ## License
 
 MIT © [mpontus](https://github.com/mpontus)
